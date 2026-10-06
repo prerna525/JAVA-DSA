@@ -1,4 +1,4 @@
-import java.utli.Scanner;
+import java.util.Scanner;
 public class ques {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class ques {
             number[i] = sc.nextInt();
         }
         int x=sc.nextInt();
-        for(int=0;i<number.length;i++)
+        for( int i=0;i<number.length;i++)
         {
             if(number[i]==x)
             {
